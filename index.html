@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="scoreboard">
+            <div class="content-wrapper">
+                <h1>HOME</h1>
+                <div class="display">
+                    <h2 class="score-text" id="goal_a">0</h2>
+                </div>
+                <div class="btn-wrapper">
+                    <button onclick="plusOne()">+1</button>
+                    <button onclick="plusTwo()">+2</button>
+                    <button onclick="plusThree()">+3</button>
+                </div>
+            </div>   
+            
+            <div class="content-wrapper">
+                <h1>GUEST</h1>
+                <div class="display">
+                    <h2 class="score-text" id="goal_b">0</h2>
+                </div>
+                <div class="btn-wrapper">
+                    <button onclick="plusOne_b()">+1</button>
+                    <button onclick="plusTwo_b()">+2</button>
+                    <button onclick="plusThree_b()">+3</button>
+                </div>
+            </div>   
+        </div>   
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
